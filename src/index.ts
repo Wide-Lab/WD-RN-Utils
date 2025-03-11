@@ -1,5 +1,5 @@
-import * as WDDimensions from './Dimensions';
-import * as WDFiles from './Files';
-import * as WDStyles from './Styles';
+import * as WDRNDimensions from './Dimensions';
+import * as WDRNFiles from './Files';
+import * as WDRNStyles from './Styles';
 
-export { WDDimensions, WDFiles, WDStyles };
+export { WDRNDimensions, WDRNFiles, WDRNStyles };

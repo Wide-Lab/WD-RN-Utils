@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Uma biblioteca de funções utilitárias para projetos desenvolvidos com React Native. Esta biblioteca fornece uma coleção de funções úteis para facilitar o desenvolvimento de aplicativos móveis, incluindo manipulação de strings, formatação de datas, validação de dados e muito mais.",
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest"
   },
@@ -34,6 +39,7 @@
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.6",
+    "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }
 }

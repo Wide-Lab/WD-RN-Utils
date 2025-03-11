@@ -47,6 +47,6 @@
   },
   "dependencies": {
     "react-native": "~0.76.7",
-    "widelab-utils": "^1.0.4"
+    "widelab-utils": "^1.0.5"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "name": "widelab-rn-utils",
+  "version": "1.0.0",
+  "description": "Uma biblioteca de funções utilitárias para projetos desenvolvidos com React Native. Esta biblioteca fornece uma coleção de funções úteis para facilitar o desenvolvimento de aplicativos móveis, incluindo manipulação de strings, formatação de datas, validação de dados e muito mais.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wide-Lab/WD-RN-Utils.git"
+  },
+  "keywords": [
+    "widelab",
+    "react-native",
+    "utils",
+    "utilities",
+    "typescript",
+    "formatting",
+    "data",
+    "manipulation",
+    "calculations",
+    "validations",
+    "helpers"
+  ],
+  "author": "Leonardo Noro - Widelab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wide-Lab/WD-RN-Utils/issues"
+  },
+  "homepage": "https://github.com/Wide-Lab/WD-RN-Utils#readme"
+}

@@ -9,7 +9,9 @@
     "dist"
   ],
   "scripts": {
-    "test": "jest"
+    "build": "tsup",
+    "test": "jest",
+    "deploy": "tsup && npm publish"
   },
   "private": false,
   "keywords": [
@@ -42,5 +44,9 @@
     "ts-node": "^10.9.2",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "react-native": "~0.76.7",
+    "widelab-utils": "^1.0.4"
   }
 }

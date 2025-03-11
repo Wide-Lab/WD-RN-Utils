@@ -31,6 +31,9 @@
   },
   "homepage": "https://github.com/Wide-Lab/WD-RN-Utils#readme",
   "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
     "typescript": "^5.8.2"
   }
 }

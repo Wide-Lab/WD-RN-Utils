@@ -6,10 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Wide-Lab/WD-RN-Utils.git"
-  },
+  "private": false,
   "keywords": [
     "widelab",
     "react-native",
@@ -25,8 +22,15 @@
   ],
   "author": "Leonardo Noro - Widelab",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wide-Lab/WD-RN-Utils.git"
+  },
   "bugs": {
     "url": "https://github.com/Wide-Lab/WD-RN-Utils/issues"
   },
-  "homepage": "https://github.com/Wide-Lab/WD-RN-Utils#readme"
+  "homepage": "https://github.com/Wide-Lab/WD-RN-Utils#readme",
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
 }

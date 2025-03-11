@@ -4,21 +4,17 @@ Uma biblioteca de funções utilitárias para projetos desenvolvidos com React N
 
 ## Instalação
 
-Você pode instalar a biblioteca usando npm ou yarn:
+Você pode instalar a biblioteca usando npm:
 
-```sh
+```bash
 npm install widelab-rn-utils
-
-ou
-
-yarn add widelab-rn-utils
 ```
 
 ## Uso
 
 Aqui está um exemplo de como usar algumas das funções utilitárias fornecidas pela biblioteca:
 
-```javascript
+```typescript
 import { formatDate, validateEmail } from 'widelab-rn-utils';
 
 // Formatar uma data

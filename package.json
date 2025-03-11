@@ -30,7 +30,7 @@
     "url": "https://github.com/Wide-Lab/WD-RN-Utils/issues"
   },
   "homepage": "https://github.com/Wide-Lab/WD-RN-Utils#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^5.8.2"
   }
 }

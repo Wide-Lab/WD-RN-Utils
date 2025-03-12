@@ -15,23 +15,29 @@ npm install widelab-rn-utils
 Aqui está um exemplo de como usar algumas das funções utilitárias fornecidas pela biblioteca:
 
 ```typescript
-import { formatDate, validateEmail } from 'widelab-rn-utils';
+import { WDRNDimensions, WDRNFiles, WDRNStyles } from 'widelab-rn-utils';
 
-// Formatar uma data
-const formattedDate = formatDate(new Date());
-console.log(formattedDate); // Saída: 11/03/2025
+// Converter extensão para tipo MIME
+const mimeType = WDRNFiles.extensionToMimeType('jpg');
+console.log(mimeType); // Saída: image/jpeg
 
-// Validar um endereço de email
-const isValidEmail = validateEmail('example@example.com');
-console.log(isValidEmail); // Saída: true
+// Ler conteúdo de um arquivo em base64
+const base64Content = await WDRNFiles.getFileBase64('file:///path/to/file.jpg');
+console.log(base64Content); // Saída: data:image/jpeg;base64,...
+
+// Obter dimensões da janela
+console.log(WDRNDimensions.window); // Saída: { width: ..., height: ..., scale: ..., fontScale: ... }
+
+// Gerar estilo de sombra para um componente com profundidade 5
+const shadowStyle = WDRNStyles.shadowGenerator(5);
+console.log(shadowStyle); // Saída: { shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.34, shadowRadius: 3.27, elevation: 5 }
 ```
 
 ## Funcionalidades
 
-- **Manipulação de Strings**: Funções para manipulação e formatação de strings.
-- **Formatação de Datas**: Funções para formatação de datas em diferentes formatos.
-- **Validação de Dados**: Funções para validação de emails, números de telefone, etc.
-- **E muito mais**: Novas funções utilitárias serão adicionadas conforme necessário.
+- **Manipulação de Arquivos**: Funções para mover e copiar arquivos, ler arquivos, converter extensão em MIME type e etc..
+- **Dimensões**: Obtém as dimensões da janela ou da tela do dispositivo.
+- **Estilos**: Criar sombras usando elevation, manipular imagens, temas e etc..
 
 ## Contribuição
 
